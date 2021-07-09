@@ -2,7 +2,9 @@
 import './App.css';
 import React, {useEffect, useState} from "react";
 import axios from "axios";
-import CarItem from './components/CarItem';
+
+
+import CarList from './components/CarList';
 
 
 
@@ -26,17 +28,18 @@ function App() {
   
   
   return (
+ 
     <div className="App">
+  
     <h1>See all of our cars!</h1>
-      {cars.map((car)=>{
-        return(
-          <CarItem
-            key={car.id}
-            carModel= {car.model_variant}
-          />
-        )
-      })}
+    <CarList
+    
+      cars ={cars}
+    />
+ 
     </div>
+    
+   
   );
 }
 export default App;
