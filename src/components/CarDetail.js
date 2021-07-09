@@ -6,10 +6,22 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 
 
-const CarDetail = () => {
+const CarDetail = (props) => {
+
+//get id from URL
+
+
     return (
         <div>
-            <h1>Car</h1>
+          
+         
+             
+                <div>
+                    <h1>Car details</h1>
+                </div>
+              
+          
+
         </div>
     );
 };

@@ -29,13 +29,13 @@ function App() {
   return (
     <Router>
     <div className="App">
-    <h1>See all of our cars!</h1>
+    
   
    
     
     <Switch>
-    <Route path="/" exact render={(props) => <CarList {...props} cars={cars} />} />
-      <Route path="/:id" exact component={CarDetail} />
+    <Route path="/" exact render={() => <CarList  cars={cars} />} />
+    <Route path="/:id" exact render={() => <CarDetail  cars={cars} />} />
 
   
     </Switch>

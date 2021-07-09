@@ -1,5 +1,30 @@
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,14,1) 0%, rgba(0,212,255,1) 100%);
+color: whitesmoke;
+}
+
 .App {
   text-align: center;
+  
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  background-color: rgb(127, 196, 127);
+  display: inline-block;
+  padding: 10px;
+  border-radius:10px;
+  box-shadow: 0 0 10px;
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+a{
+  color: white;
 }
 
 .App-logo {
