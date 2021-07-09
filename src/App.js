@@ -2,6 +2,7 @@
 import './App.css';
 import React, {useEffect, useState} from "react";
 import axios from "axios";
+import CarItem from './components/CarItem';
 
 
 
@@ -29,9 +30,10 @@ function App() {
     <h1>See all of our cars!</h1>
       {cars.map((car)=>{
         return(
-          <div>
-          <a key={car.id} id={car.id} href={car.model_variant}>{car.model_variant}</a>
-          </div>
+          <CarItem
+            key={car.id}
+            carModel= {car.model_variant}
+          />
         )
       })}
     </div>
