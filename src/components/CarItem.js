@@ -13,7 +13,7 @@ const CarItem = (props) => {
              <div>
             
              <ul>
-             <Link to={`/${props.id}`}>
+             <Link to={`/cars/${props.id}`}>
 
              <li value={props.vim}> {props.carModel}</li>
     

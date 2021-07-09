@@ -35,7 +35,7 @@ function App() {
     
     <Switch>
     <Route path="/" exact render={() => <CarList  cars={cars} />} />
-    <Route path="/:id" exact render={() => <CarDetail  cars={cars} />} />
+    <Route path="/cars/:id" exact render={() => <CarDetail  cars={cars} />} />
 
   
     </Switch>
