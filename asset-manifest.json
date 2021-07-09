@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/joes-garage/static/css/main.6c63956f.chunk.css",
-    "main.js": "/joes-garage/static/js/main.5d719123.chunk.js",
-    "main.js.map": "/joes-garage/static/js/main.5d719123.chunk.js.map",
+    "main.js": "/joes-garage/static/js/main.b0db0335.chunk.js",
+    "main.js.map": "/joes-garage/static/js/main.b0db0335.chunk.js.map",
     "runtime-main.js": "/joes-garage/static/js/runtime-main.b21d277d.js",
     "runtime-main.js.map": "/joes-garage/static/js/runtime-main.b21d277d.js.map",
     "static/js/2.51c79bda.chunk.js": "/joes-garage/static/js/2.51c79bda.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b21d277d.js",
     "static/js/2.51c79bda.chunk.js",
     "static/css/main.6c63956f.chunk.css",
-    "static/js/main.5d719123.chunk.js"
+    "static/js/main.b0db0335.chunk.js"
   ]
 }
