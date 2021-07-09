@@ -13,9 +13,9 @@ function App() {
   useEffect(()=>{
     axios.get("https://react-challenge-api.azurewebsites.net/vehicles")
     .then(response => {
-      console.log(response.data);
+     
       setCars(response.data);
-      console.log(cars)
+    
       
     })
     .catch(error =>{
@@ -26,7 +26,14 @@ function App() {
   
   return (
     <div className="App">
-      {}
+    <h1>See all of our cars!</h1>
+      {cars.map((car)=>{
+        return(
+          <div>
+          <a key={car.id} id={car.id} href={car.model_variant}>{car.model_variant}</a>
+          </div>
+        )
+      })}
     </div>
   );
 }
