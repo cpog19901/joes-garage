@@ -20,14 +20,21 @@ let {id} = useParams();
 const [nextVin, setNextVin] = useState(id);
 const [prevVin, setPrevVin] = useState(id);
 
+const history = useHistory();
+
+
+
 
 const nextCar = () => {
     
+
+
+
   const carIndex = props.cars.findIndex(car => car.vin===id)
     props.cars.map((car, index) => {
         if(index === carIndex +1){
            
-            setNextVin(car.vin);
+            history.push(`/cars/${car.vin}`)
 
             
         } 
@@ -42,8 +49,7 @@ const prevCar = () => {
       props.cars.map((car, index) => {
           if(index === carIndex -1){
              
-              setPrevVin(car.vin);
-  
+            history.push(`/cars/${car.vin}`)
               
           } 
           
@@ -93,7 +99,7 @@ useEffect(() => {
 
                             {index!==0 ? 
                             
-                            <Button href={`/cars/${prevVin}`} className={classes.btn} onClick={prevCar}><ArrowBackIosIcon/> Previous car</Button> : null}
+                            <Button  className={classes.btn} onClick={prevCar}><ArrowBackIosIcon/> Previous car</Button> : null}
                             <Link 
                             to={`/joes-garage/`}>
                          
@@ -105,7 +111,7 @@ useEffect(() => {
                            {index !== props.cars.length-1 ? 
                            
                            
-                           <Button href={`/cars/${nextVin}`} className={classes.btn} onClick={nextCar}>Next car <ArrowForwardIosIcon/></Button> 
+                           <Button className={classes.btn} onClick={nextCar}>Next car <ArrowForwardIosIcon/></Button> 
                          
                            :null }
                          
