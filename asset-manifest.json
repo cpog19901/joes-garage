@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/joes-garage/static/css/main.7509bb17.chunk.css",
-    "main.js": "/joes-garage/static/js/main.b7d99766.chunk.js",
-    "main.js.map": "/joes-garage/static/js/main.b7d99766.chunk.js.map",
+    "main.js": "/joes-garage/static/js/main.bd595404.chunk.js",
+    "main.js.map": "/joes-garage/static/js/main.bd595404.chunk.js.map",
     "runtime-main.js": "/joes-garage/static/js/runtime-main.fec0bcaf.js",
     "runtime-main.js.map": "/joes-garage/static/js/runtime-main.fec0bcaf.js.map",
-    "static/js/2.5acbc098.chunk.js": "/joes-garage/static/js/2.5acbc098.chunk.js",
-    "static/js/2.5acbc098.chunk.js.map": "/joes-garage/static/js/2.5acbc098.chunk.js.map",
+    "static/js/2.e0bd87fe.chunk.js": "/joes-garage/static/js/2.e0bd87fe.chunk.js",
+    "static/js/2.e0bd87fe.chunk.js.map": "/joes-garage/static/js/2.e0bd87fe.chunk.js.map",
     "static/js/3.7d6f83ff.chunk.js": "/joes-garage/static/js/3.7d6f83ff.chunk.js",
     "static/js/3.7d6f83ff.chunk.js.map": "/joes-garage/static/js/3.7d6f83ff.chunk.js.map",
     "index.html": "/joes-garage/index.html",
     "static/css/main.7509bb17.chunk.css.map": "/joes-garage/static/css/main.7509bb17.chunk.css.map",
-    "static/js/2.5acbc098.chunk.js.LICENSE.txt": "/joes-garage/static/js/2.5acbc098.chunk.js.LICENSE.txt"
+    "static/js/2.e0bd87fe.chunk.js.LICENSE.txt": "/joes-garage/static/js/2.e0bd87fe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fec0bcaf.js",
-    "static/js/2.5acbc098.chunk.js",
+    "static/js/2.e0bd87fe.chunk.js",
     "static/css/main.7509bb17.chunk.css",
-    "static/js/main.b7d99766.chunk.js"
+    "static/js/main.bd595404.chunk.js"
   ]
 }
