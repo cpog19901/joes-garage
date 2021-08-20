@@ -10,6 +10,8 @@ import CarDetail from "./components/CarDetail";
 
 function App() {
 
+  
+
   const [cars, setCars] = useState([]);
 //fetch API data
 
@@ -24,8 +26,6 @@ function App() {
   }, [])
   
 
- 
-  
   return (
     <Router>
     <div className="App">

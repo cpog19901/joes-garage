@@ -1,7 +1,6 @@
 body{
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,14,1) 0%, rgba(0,212,255,1) 100%);
-color: whitesmoke;
+
+
 }
 
 .App {
@@ -14,7 +13,7 @@ ul{
 }
 
 li{
-  background-color: rgb(127, 196, 127);
+  background-color: rgb(66, 81, 223);
   display: inline-block;
   padding: 10px;
   border-radius:10px;
